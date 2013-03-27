@@ -1,0 +1,19 @@
+{
+  "name": "unCover",
+  "version": "1.0",
+  "description": "Remove annoying covers from websites",
+  
+  "permissions" : [
+	  "http://gag.bz/*",
+	  "http://sofunnylol.org/*"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches": ["http://gag.bz/*"],
+      "js": ["unCover.js"]
+    }
+  ],
+
+  "manifest_version": 2
+}
