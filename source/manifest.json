@@ -10,9 +10,13 @@
   
   "content_scripts": [
     {
-      "matches": ["http://gag.bz/*"],
-      "js": ["unCover.js"]
-    }
+      "matches": ["http://gag.bz/*", "http://sofunnylol.org/*"],
+      "css": ["gagbz.css"]
+    },
+	{
+		"matches": ["http://www.wolframalpha.com/*"],
+		"css": ["wolfram.css"]
+	}
   ],
 
   "manifest_version": 2
