@@ -11,6 +11,11 @@
 	{
 		"matches": ["http://www.wolframalpha.com/*"],
 		"css": ["wolfram.css"]
+	},
+	{
+		"matches": ["https://www.facebook.com/*", "https://www.yedioth.co.il/*"],
+		"css": ["facebooklikepage.css"],
+		"all_frames": true
 	}
   ],
 
