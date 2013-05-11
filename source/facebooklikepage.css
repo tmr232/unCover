@@ -1,3 +1,7 @@
 .fb-like-div, .fb-like-wrapper#imgBeforeLike {
 	display: none !important;
 }
+
+body[scroll] div.mainDiv {
+	overflow-y: scroll;
+}
