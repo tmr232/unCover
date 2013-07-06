@@ -1,0 +1,6 @@
+div.modal_signup_background,
+form.modal_signup_dialog,
+div.modal_signup_top_section
+{
+    display: none !important;
+}

@@ -16,7 +16,11 @@
 		"matches": ["https://www.facebook.com/*", "https://www.yedioth.co.il/*"],
 		"css": ["facebooklikepage.css"],
 		"all_frames": true
-	}
+	},
+      {
+          "matches": ["http://www.quora.com/*"],
+          "css": ["quora.css"]
+      }
   ],
 
   "manifest_version": 2
